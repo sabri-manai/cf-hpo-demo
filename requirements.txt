@@ -1,0 +1,19 @@
+# Core ML / DL
+xgboost
+lightgbm
+catboost
+optuna
+# torch
+# rtdl
+shap
+dice-ml
+
+# Data processing
+pandas
+numpy
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+

@@ -1,0 +1,27 @@
+# ---- Virtual environments ----
+xai_hpo/
+venv/
+.env/
+.venv/
+
+# ---- Jupyter & notebooks ----
+.ipynb_checkpoints/
+
+# ---- Logs & temp ----
+catboost_info/
+*.log
+*.tmp
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Build / packaging ----
+*.egg-info/
+dist/
+build/
+
+
+# ---- IDE / editor configs ----
+.vscode/
+.idea/
