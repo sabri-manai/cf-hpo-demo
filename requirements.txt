@@ -3,10 +3,9 @@ xgboost
 lightgbm
 catboost
 optuna
-# torch
-# rtdl
 shap
 dice-ml
+cfnow
 
 # Data processing
 pandas
