@@ -25,4 +25,4 @@ build/
 # ---- IDE / editor configs ----
 .vscode/
 .idea/
-data/
+

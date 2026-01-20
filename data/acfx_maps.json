@@ -1,0 +1,75 @@
+{
+  "categorical": {
+    "params_booster": [
+      "dart",
+      "gbtree"
+    ],
+    "params_grow_policy": [
+      "depthwise",
+      "lossguide"
+    ],
+    "params_sample_type": [
+      "NA",
+      "uniform",
+      "weighted"
+    ],
+    "params_normalize_type": [
+      "NA",
+      "forest",
+      "tree"
+    ],
+    "user_attrs_resampling_strategy": [
+      "none",
+      "oversample",
+      "undersample"
+    ],
+    "soft_risk_preference": [
+      "balanced",
+      "precision_pref",
+      "recall_pref"
+    ],
+    "soft_decision_speed": [
+      "balanced",
+      "fast",
+      "slow"
+    ]
+  },
+  "numeric_fill": {
+    "params_alpha": 0.0,
+    "params_colsample_bytree": 0.0,
+    "params_gamma": 0.0,
+    "params_lambda": 0.0,
+    "params_learning_rate": 0.0,
+    "params_max_delta_step": 0.0,
+    "params_max_depth": 0.0,
+    "params_min_child_weight": 0.0,
+    "params_n_estimators": 0.0,
+    "params_rate_drop": 0.0,
+    "params_scale_pos_weight": 0.0,
+    "params_selftrain_max_iter": 0.0,
+    "params_selftrain_threshold": 0.0,
+    "params_skip_drop": 0.0,
+    "params_subsample": 0.0,
+    "user_attrs_decision_threshold": 0.0,
+    "user_attrs_feature_fraction": 0.0,
+    "user_attrs_labeled_ratio": 0.0,
+    "user_attrs_missing_rate": 0.0,
+    "user_attrs_sample_rows": 0.0
+  },
+  "target": {
+    "name": "cat_value",
+    "bins": [
+      0,
+      0.5,
+      0.6,
+      0.7,
+      1.0
+    ],
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}
