@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "dataset_dir": "/home/jovyan/shared/pdt/dataset_public",
+  "train_good_dir": "/home/jovyan/shared/pdt/dataset_public/train/good",
+  "test_good_dir": "/home/jovyan/shared/pdt/dataset_public/test/good",
+  "test_bad_dir": "/home/jovyan/shared/pdt/dataset_public/test/bad",
+  "val_final_split": {
+    "source": "df_test",
+    "method": "train_test_split(test_size=0.5, stratify=label)"
+  },
+  "counts": {
+    "train_good": 4538,
+    "val": 867,
+    "final": 867,
+    "val_labels": {
+      "0": 567,
+      "1": 300
+    },
+    "final_labels": {
+      "0": 568,
+      "1": 299
+    }
+  }
+}

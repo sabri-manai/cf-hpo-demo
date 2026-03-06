@@ -1,0 +1,27 @@
+CF 0:
+- Increased backbone model from resnet34 to resnet50.
+- Reduced batch size from 16 to 8.
+- Expanded image size from 224 to 256.
+CF 1:
+- Increased backbone model from resnet34 to resnet50.
+- Reduced batch size from 16 to 8.
+CF 2:
+- Increased backbone model from resnet34 to resnet50.
+- Reduced batch size from 16 to 8.
+- Adjusted coreset sampling ratio from 0.095 to 0.097.
+CF 3:
+- Reduced batch size from 16 to 8.
+- Adjusted coreset sampling ratio from 0.095 to 0.1.
+CF 4:
+- Reduced batch size from 16 to 8.
+- Adjusted coreset sampling ratio from 0.095 to 0.098.
+CF 5:
+- Reduced batch size from 16 to 8.
+- Adjusted coreset sampling ratio from 0.095 to 0.097.
+- Adjusted soft review budget from 0.345 to 0.346.
+CF 6:
+- Reduced batch size from 16 to 8.
+- Adjusted coreset sampling ratio from 0.095 to 0.092.
+- Adjusted soft review budget from 0.345 to 0.346.
+Best choice: CF 0. This CF has the highest score (0.9066) and makes significant changes including increasing the backbone model, reducing batch size, and expanding image size, which align well with the user's request for better quality.
+Runner-up: CF 2. This CF also has a high score (0.8969) and introduces important improvements such as increasing the backbone model and adjusting the coreset sampling ratio, making it a strong contender.

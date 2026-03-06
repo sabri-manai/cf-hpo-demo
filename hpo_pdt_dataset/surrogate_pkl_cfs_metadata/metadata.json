@@ -1,0 +1,75 @@
+{
+  "surrogate_model_path": "surrogate_pkl_cfs_metadata/surrogate_catboost.cbm",
+  "splits_dir": "patchcore_splits",
+  "target": "value",
+  "features": [
+    "params_backbone",
+    "params_batch_size",
+    "params_center_crop_key",
+    "params_coreset_sampling_ratio",
+    "params_image_size_key",
+    "params_layers_key",
+    "params_max_patches_per_image",
+    "params_num_neighbors",
+    "params_pre_trained",
+    "params_reduction",
+    "params_soft_corruption_level",
+    "params_soft_review_budget",
+    "params_soft_train_fraction"
+  ],
+  "categorical": [
+    "params_backbone",
+    "params_batch_size",
+    "params_center_crop_key",
+    "params_image_size_key",
+    "params_layers_key",
+    "params_max_patches_per_image",
+    "params_pre_trained",
+    "params_reduction",
+    "params_soft_corruption_level"
+  ],
+  "factual_index": 2572,
+  "factual_value_surrogate": 0.8916769752759861,
+  "objective": {
+    "type": "delta_improve",
+    "delta": 0.02,
+    "eps": 0.01
+  },
+  "soft_constraints": {
+    "params_soft_review_budget": {
+      "mode": "fixed",
+      "value": 0.345
+    },
+    "params_soft_train_fraction": {
+      "mode": "range",
+      "lower": 0.3,
+      "upper": 0.6
+    },
+    "params_soft_corruption_level": {
+      "mode": "free"
+    }
+  },
+  "selection": {
+    "k": 7
+  },
+  "desired_range": [
+    0.9116769752759861,
+    1.0
+  ],
+  "permitted_range": {
+    "params_soft_review_budget": [
+      0.345,
+      0.345
+    ],
+    "params_soft_train_fraction": [
+      0.3,
+      0.6
+    ],
+    "params_soft_corruption_level": [
+      "mild",
+      "none",
+      "strong"
+    ]
+  },
+  "n_cfs": 7
+}

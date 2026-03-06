@@ -1,0 +1,8 @@
+cf_id,params_backbone,params_batch_size,params_center_crop_key,params_coreset_sampling_ratio,params_image_size_key,params_layers_key,params_max_patches_per_image,params_num_neighbors,params_pre_trained,params_reduction,params_soft_corruption_level,params_soft_review_budget,params_soft_train_fraction,value
+0,resnet50,8,0.875,0.095,256,l3,1024,1,True,mean,mild,0.345,0.86,0.90661526
+1,resnet50,8,0.875,0.095,256,l3,1024,1,True,mean,none,0.345,0.86,0.89815843
+2,resnet50,8,0.875,0.097,224,l3,1024,1,True,mean,none,0.346,0.86,0.89697695
+3,resnet34,8,0.875,0.1,224,l3,1024,1,True,mean,none,0.345,0.86,0.89654267
+4,resnet34,8,0.875,0.098,224,l3,1024,1,True,mean,none,0.345,0.86,0.89625144
+5,resnet34,8,0.875,0.097,224,l3,1024,1,True,mean,none,0.346,0.86,0.89625144
+6,resnet34,8,0.875,0.092,224,l3,1024,1,True,mean,none,0.346,0.86,0.89622706
