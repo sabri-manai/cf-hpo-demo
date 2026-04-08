@@ -1,0 +1,15 @@
+Required quality in [0.800, 0.920].
+Scores: Option A 0.899; Option B 0.898; Option C 0.897.
+
+Option A:
+  • Quality 0.899 — inside [0.800, 0.920]. It is the highest-scoring option out of 3.
+  • Violates: Training fraction.
+Option B:
+  • Quality 0.898 — inside [0.800, 0.920]. It ranks 2 of 3 by score.
+  • Violates: Training fraction.
+Option C:
+  • Quality 0.897 — inside [0.800, 0.920]. It is the lowest-scoring option out of 3.
+  • Satisfies all per-option constraints.
+
+Best choice: Option C. Quality 0.897, all per-option constraints are satisfied. It is the lowest-scoring option out of 3.
+Runner-up: Option A. Quality 0.899, it violates Training fraction. It is the highest-scoring option out of 3.
