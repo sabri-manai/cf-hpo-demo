@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "dataset_dir": "/home/jovyan/shared/xautoml_user/shared/mvtec_anomaly_detection",
+  "selected_classes": [
+    "bottle",
+    "cable",
+    "capsule",
+    "hazelnut"
+  ],
+  "classes": {
+    "bottle": {
+      "train_good": 209,
+      "val": 41,
+      "final": 42,
+      "val_labels": {
+        "1": 31,
+        "0": 10
+      },
+      "final_labels": {
+        "1": 32,
+        "0": 10
+      }
+    },
+    "cable": {
+      "train_good": 224,
+      "val": 75,
+      "final": 75,
+      "val_labels": {
+        "1": 46,
+        "0": 29
+      },
+      "final_labels": {
+        "1": 46,
+        "0": 29
+      }
+    },
+    "capsule": {
+      "train_good": 219,
+      "val": 66,
+      "final": 66,
+      "val_labels": {
+        "1": 55,
+        "0": 11
+      },
+      "final_labels": {
+        "1": 54,
+        "0": 12
+      }
+    },
+    "hazelnut": {
+      "train_good": 391,
+      "val": 55,
+      "final": 55,
+      "val_labels": {
+        "1": 35,
+        "0": 20
+      },
+      "final_labels": {
+        "1": 35,
+        "0": 20
+      }
+    }
+  }
+}

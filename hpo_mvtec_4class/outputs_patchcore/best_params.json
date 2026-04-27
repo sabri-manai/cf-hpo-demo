@@ -1,0 +1,15 @@
+{
+  "soft_train_fraction": 0.9000000000000001,
+  "soft_corruption_level": "none",
+  "soft_review_budget": 0.495,
+  "backbone": "wide_resnet50_2",
+  "layers_key": "l2_l3",
+  "pre_trained": true,
+  "image_size_key": "256",
+  "center_crop_key": "0.875",
+  "coreset_sampling_ratio": 0.019000000000000003,
+  "num_neighbors": 1,
+  "reduction": "mean",
+  "max_patches_per_image": 1024,
+  "batch_size": 16
+}
